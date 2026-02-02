@@ -49,6 +49,36 @@
           "lib/netcoreapp2.0/_._": {}
         }
       }
+    },
+    "net8.0/win-x64": {
+      "Raylib-cs/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/net6.0/Raylib-cs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Raylib-cs.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/raylib.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -134,11 +164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ContinualImprovement\\projectos\\juego disparos rayib\\SpaceShooter.csproj",
+      "projectUniqueName": "C:\\Users\\Mado\\Documents\\GitHub\\juego-disparos\\SpaceShooter.csproj",
       "projectName": "SpaceShooter",
-      "projectPath": "G:\\ContinualImprovement\\projectos\\juego disparos rayib\\SpaceShooter.csproj",
+      "projectPath": "C:\\Users\\Mado\\Documents\\GitHub\\juego-disparos\\SpaceShooter.csproj",
       "packagesPath": "C:\\Users\\Mado\\.nuget\\packages\\",
-      "outputPath": "G:\\ContinualImprovement\\projectos\\juego disparos rayib\\obj\\",
+      "outputPath": "C:\\Users\\Mado\\Documents\\GitHub\\juego-disparos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,12 +223,31 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[8.0.18, 8.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[8.0.18, 8.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[8.0.18, 8.0.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }
