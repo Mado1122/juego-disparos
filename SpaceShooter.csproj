@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Raylib-cs" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="assets\sounds\*.wav;assets\sounds\*.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>assets\sounds\%(Filename)%(Extension)</Link>
+    </None>
+  </ItemGroup>
+
+</Project>

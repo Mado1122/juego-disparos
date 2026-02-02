@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "f0/zKskYEjk=",
+  "success": true,
+  "projectFilePath": "G:\\ContinualImprovement\\projectos\\juego disparos rayib\\SpaceShooter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mado\\.nuget\\packages\\raylib-cs\\5.0.0\\raylib-cs.5.0.0.nupkg.sha512",
+    "C:\\Users\\Mado\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
