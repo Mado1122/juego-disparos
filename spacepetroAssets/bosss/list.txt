@@ -1,0 +1,7 @@
+# Copia este archivo a tu repo como: spacepetroAssets/bosss/list.txt
+# Una línea por carpeta de jefe (las que están en spacepetroAssets/bosss/).
+# Líneas que empiezan con # se ignoran.
+ficky avila
+furibe
+godolfo fernandez
+prump
